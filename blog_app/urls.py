@@ -11,5 +11,6 @@ urlpatterns = [
 
 
     path('',views.Index,name='index'),
+    path('menu',views.Menu,name='menu'),
 
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
